@@ -6,21 +6,32 @@
     <meta name="description" content="Репозиторий создан для обучения на интенсивном онлайн‑курсе Базовый HTML и CSS">
 </head>
 <body>
-  	<header class="main-header">
+<header class="main-header">
+  	<div class="main-header-top">
+  		<div class="container">
+  			<div class="header-logo">
+  				<a href="#">Техномарт</a>
+  			</div>
+
+  			<form class="search-form" action="http://technomart.ru" method="get">
+  				<button type="submit" name="search-button"></button>
+  				<input type="text" name="search" placeholder="Поиск:">
+  			</form>
+
+  			<div class="bookmarks">
+  				<a href="#">Закладки<span class=bookmarks-counter>0</span></a>
+  			</div>
+
+			<div class="basket">
+  				<a href="#">Корзина: <span class="basket-counter">0</span></a>
+  			</div>
+
+  			<a class="checkout-order" href="#">Оформить заказ</a>
+  		</div>
+  	</div>
+
+  	<div class="main-header-middle">
   	<div class="container">
-
-  		<a class="header-logo" href="#">Техномарт</a>
-
-  		<form class="search-form" action="http://technomart.ru" method="get">
-  			<button type="submit" name="search-button"></button>
-  			<input type="text" name="search" placeholder="Поиск:">
-  		</form>
-
-  		<a class="bookmarks" href="#">
-  		Корзина: 10
-  		</a>
-  		<a class="checkout-order" href="#">Оформиь заказ</a>
-
   		<div class="about-shop">
   			<p>Интернет магазин<br>
   			   строительных материалов<br>
@@ -44,36 +55,39 @@
   			<a href="#http://technomart/myorders.ru"></a>
   			<a href="#http://technomart/user-page.ru"></a>
   		</div>
+  	</div>
+  	</div>
 
-  		<nav>
-  			<ul>
-  				<li>
-  					<a href="#">Главная</a>
-  				</li>
-  				<li>
-  					<a href="#">Компания</a>
-  				</li>
-  				<li>
-  					<a href="#">Каталог</a>
-  				</li>
-  				<li>
-  					<a href="#">Новости</a>
-  				</li>
-  				<li>
-  					<a href="#">Спецпредложения</a>
-  				</li>
-  				<li>
-  					<a href="#">Доставка</a>
-  				</li>
-  				<li>
-  					<a href="#">Контакты</a>
-  				</li>
-  			</ul>
-  		</nav>
-	</div>
-	</header>
+  	
+  	<nav class=header-nav container>
+  		<ul>
+  			<li>
+  				<a href="#">Главная</a>
+  			</li>
+  			<li>
+  				<a href="#">Компания</a>
+  			</li>
+  			<li>
+  				<a href="#">Каталог</a>
+  			</li>
+  			<li>
+  				<a href="#">Новости</a>
+  			</li>
+  			<li>
+  				<a href="#">Спецпредложения</a>
+  			</li>
+  			<li>
+  				<a href="#">Доставка</a>
+  			</li>
+  			<li>
+  				<a href="#">Контакты</a>
+  			</li>
+  		</ul>
+  	</nav>
+</header>
 
 <main>
+<div class="goods-block">
 <div class="container">
 	<section class="offers">
 
@@ -211,7 +225,11 @@
 			<img src="#" alt="Metabo">
 		</a>		
 	</section>
+	</div>
+	</div>
 
+<div class="serveces-block">
+<div class="container">
 	<section class="services">
 		<h2>Сервисы</h2>
 		<p>
@@ -233,7 +251,11 @@
 			 <img class="services-image" src="#" width="220" height="180" alt="">
 		</div>
 	</section>
+</div>
+</div>
 
+<div class="about-company-block">
+<div class="container">
 	<section class="about-company">
 		<div class="about-company-left">
 			<h2>Компания &laquo;техномарт&raquo;</h2>
@@ -259,8 +281,11 @@
 		</div>
 	</section>
 </div>
+</div>
 </main>
+
 <footer class="main-footer">
+	<div class="footer-nav">
 	<div class="container">
 		<div class="footer-logo">
 			<a href="#">Техномарт</a>
@@ -304,8 +329,10 @@
 			</ul>
 		</nav>
 	</div>
-</footer>
-<div class="last-line">
+	</div>
+
+
+<div class="copyright-block">
 	<div class="container">
 
 		<div class="footer-copyright">
@@ -335,7 +362,6 @@
 
 	</div>
 </div>  
-
-
+</footer>
 </body>
 </html>
