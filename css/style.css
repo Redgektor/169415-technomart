@@ -1,0 +1,25 @@
+body {
+	font-family: "PTSans", "Arial", serif;
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #000000;
+}
+
+h1 {
+	font-family: "Cuprum", "Arial", serif;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: normal;
+	color: #32425c;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: "Cuprum", "Arial", serif;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: normal;
+	color: #32425c;
+	text-transform: uppercase;
+}
