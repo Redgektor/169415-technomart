@@ -1,9 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #000000;
+}
+
+
 body {
 	font-family: "PTSans", "Arial", serif;
 	font-size: 13px;
 	line-height: 24px;
 	font-weight: normal;
 	color: #000000;
+	
 }
 
 h1 {
@@ -22,4 +31,190 @@ h2 {
 	font-weight: normal;
 	color: #32425c;
 	text-transform: uppercase;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-header {
+    background-color: #f1f5f7;
+    padding-bottom: 65px
+}
+
+.main-header-top {
+ background-color: #293449;
+ margin-bottom: 45px;
+}
+
+.container {
+    width: 940px;
+    min-height: 42px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header-logo {
+    width: 220px;
+    height: 43px;
+    background-color: #ee3643;
+    box-shadow: 0 5px  #b52933;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 43px;
+    float: left;
+}
+
+.header-logo a {
+    font-family: "Cuprum", "Arial", serif;
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+}
+
+.search-form {
+    width: 240px;
+    min-height: 42px;
+    float: left;
+    margin: 0 10px;
+}
+
+input[name="search"] {
+    width: 200px;
+    height: 42px;
+    background-color: #293449;
+    border: none;
+    font-family: "Cuprum", "Arial", serif;
+	font-size: 17px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #d4d6db;
+}
+
+.bookmarks {
+    width: 150px;
+    height: 42px;
+    float: left;
+    margin-right: 10px;
+}
+
+.basket {
+    width: 140px;
+    float: left;
+    margin-right: 10px;
+}
+
+.checkout-order {
+    width: 150px;
+    float: right;
+}
+
+.bookmarks a, .bookmarks span, .basket, .basket a, .basket span, .checkout-order, .checkout-order a {
+    font-family: "Cuprum", "Arial", serif;
+	font-size: 17px;
+	line-height: 42px;
+	font-weight: normal;
+	color: #d4d6db;
+    }
+    
+.about-shop {
+    width: 250px;
+    min-height: 155px;
+    float: left;
+    padding-left: 50px;;
+    margin-right: 20px;
+    
+}
+
+.about-shop p{
+    font-family: "Cuprum", "Arial", serif;
+    font-style: italic;
+	font-size: 16px;
+	line-height: 23px;
+	font-weight: normal;
+	color: #ee3643;
+}
+
+.contacts-header {
+    width: 300px;
+    min-height: 155px;
+    float: left;
+    margin-right: 20px;
+    /*Выравнивание текста по горизонтали во вложенных блоках*/
+    text-align: center;
+    
+}
+
+.phone-number {
+    width: 264px;
+    height: 39px;
+    border: 3px solid #ffffff;
+    font-family: "Cuprum", "Arial", serif;
+	font-size: 21px;
+	line-height: 39px;
+	font-weight: normal;
+	color: #e9292a;
+
+}
+
+.adress-header {
+    width: 270px;
+    font-family: "Cuprum", "Arial", serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #32425c;
+}
+
+.user-block {
+    width: 300px;
+    min-height: 155px;
+    float: left;
+}
+
+.user-block a {
+    display: inline-block;
+    height: 45px;
+    background-color: #ffffff;
+    margin-right: 10px;
+    font-family: "Cuprum", "Arial", serif;
+	font-size: 21px;
+	line-height: 45px;
+	font-weight: normal;
+	color: #000000;
+	/*Не факт что выравнивание по центру, проверить после подключения шрифта и иконок*/
+	text-align: center;
+}
+
+.login {
+    width: 121px;
+}
+
+.check-in {
+    width: 150px;   
+}
+
+.header-nav {
+    background-color: #32425c;
+    box-shadow: 0 5px  #293449;
+    clear: both;    
+}
+
+.header-nav li {
+    display: inline;
+    margin-right: 50px;
+}
+
+.header-nav li a {
+    font-family: "Cuprum", "Arial", serif;
+    font-size: 17px;
+	line-height: 56px;
+	font-weight: normal;
+	color: #ffffff;     
 }
