@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>HTML Academy: Техномарт</title>
 		<meta name="description" content="Репозиторий создан для обучения на интенсивном    онлайн‑курсе Базовый HTML и CSS">
-		<link href="https://fonts.googleapis.com/css?family=Cuprum:400,700|PT+Sans:400,700&subset=cyrillic" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&subset=cyrillic" rel="stylesheet">
 		<link href="css/normalize.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 	</head>
@@ -35,8 +35,8 @@
 					<p class="adress-header">г. Санкт-Петербург, ул. Конюшенная, д.19/8</p>
 				</div>
 				<div class="user-block">
-					<a class="login" href="#http://technomart/myorders.ru"><i class=icon-login></i><span>Войти</span></a>
-					<a class="check-in" href="#http://technomart/user-page.ru"><span>Регистрация</span></a>
+					<a class="login" href="#"><i class=icon-login></i><span>Войти</span></a>
+					<a class="check-in" href="#"><span>Регистрация</span></a>
 				</div>
 				<nav class="header-nav">
 					<ul>
@@ -153,7 +153,7 @@
 								<p>25500 Р.</p>
 							</div>
 						</article>
-						<article class="gallery-item">
+						<article class="gallery-item new">
 							<div class="image-box">
 								<img class="item-image" src="img/bfg-2000.jpg" width="218" height="159" alt="">
 								<div class="action">
@@ -174,28 +174,28 @@
 						<h2>Популярные производители</h2>
 						<a class="section-label-button" href="#">Все производители</a>
 					</div>
-					<a class="producers-item">
+					<a href="#" class="producers-item">
 						<img src="img/bosch.png" alt="BOSCH" width="126" height="143">
 					</a>
-					<a class="producers-item">
+					<a href="#" class="producers-item">
 						<img src="img/Makita.png" alt="Makita" width="123" height="143">
 					</a>
-					<a class="producers-item">
+					<a href="#" class="producers-item">
 						<img src="img/DeWALT.png" alt="DeWalt" width="146" height="143">
 					</a>
-					<a class="producers-item">
+					<a href="#" class="producers-item">
 						<img src="img/interscol.png" alt="Интерскол" width="184" height="143">
 					</a>
-					<a class="producers-item">
+					<a href="#" class="producers-item">
 						<img src="img/Hitachi.png" alt="Hitachi" width="169" height="143">
 					</a>
-					<a class="producers-item">
+					<a href="#" class="producers-item">
 						<img src="img/LG.png" alt="LG" width="121" height="143">
 					</a>
-					<a class="producers-item">
+					<a href="#" class="producers-item">
 						<img src="img/AEG.png" alt="AEG" width="151" height="143">
 					</a>
-					<a class="producers-item">
+					<a href="#" class="producers-item">
 						<img src="img/Metabo.png" alt="Metabo" width="204" height="143">
 					</a>        
 				</section>
@@ -321,7 +321,7 @@
 					</div>
 					<div class="back-link">
 						<p>Обратная связь:<br>
-							<a class="footer-link" href="#<!-- mailto:mail@htmlacademy.ru -->">mail@htmlacademy.ru</a></p>
+							<a class="footer-link" href="#">mail@htmlacademy.ru</a></p>
 					</div>
 					<div class="footer-developer">
 						<p>Разработано - </p>
@@ -330,5 +330,38 @@
 				</div>
 			</div>
 		</footer>
+		<div class="modal-write-us">
+			<form class="latter-form" method="post" action="#">
+				<div class="modal-container">
+					<div class="name-box">
+						<label>Ваше имя:
+							<input type="text" name="your-name" placeholder="Представьтесь, пожалуйста">
+						</label>
+					</div>
+					<div class="email-box">
+						<label>Ваш e-mail:
+							<input type="text" name="your-email" placeholder="Для отправки ответа">
+						</label>
+					</div>
+					<div class="latter-box">
+						<label>Текст письма:
+							<textarea name="your-latter" placeholder="В свободной форме" rows="5"></textarea>
+						</label>
+					</div>
+				</div>
+				<div class="send-box">
+					<div class="modal-container">
+						<button type="submit">Отправить</button>
+					</div>
+				</div>
+			</form>
+			<a class="close-button" href="#">Закрыть</a>
+		</div>
+		<div class="modal-content-map">
+			<a class="close-button" href="#">Закрыть</a>
+			<div class="yandex-map">
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=eAOOQfasTfmS9O9nxgtSJ28ZPD-aK3Os&amp;width=940&amp;height=447&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+			</div>
+		</div>
 	</body>
 </html>
