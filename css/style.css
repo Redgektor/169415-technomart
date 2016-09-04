@@ -400,7 +400,7 @@ input[name="search"]:focus ~ .icon-search {
 	line-height: 45px;
 	font-weight: normal;
 	color: #000000;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
     position: relative;
 }
 
@@ -437,6 +437,10 @@ input[name="search"]:focus ~ .icon-search {
     color: #32425c;
     text-decoration: underline;
     margin: 0 16px;
+}
+
+.user-link a:last-child {
+    margin-left: 14px;
 }
 
 .user-link a:hover {
@@ -1201,9 +1205,10 @@ main {
     content:"";
     position: absolute;
     left: -35px;
+    bottom: 9px;
     width: 25px;
-    height: 20px;
-    background-image: linear-gradient(#fff 48%, #fb565a 48%, #fb565a 53%, #fff 53%);
+    height: 2px;
+    background-color: #fb565a;
 }
 
 .about-company-button {
@@ -1273,13 +1278,13 @@ main {
 
 .footer-left {
     width: 380px;
-    min-height: 195px;
+    min-height: 193px;
     float: left;   
 }
 
 .footer-right {
     width: 550px;
-    min-height: 195px;
+    min-height: 193px;
     float: left;   
 }
 
@@ -1423,7 +1428,7 @@ main {
 }
 
 .footer-developer {
-    width: 140px;
+    width: 112px;
     float: right;
 }
 
@@ -1513,6 +1518,7 @@ main {
     background-color: #f7f3ec;
     padding: 10px 0;
     padding-left: 18px;
+    margin-bottom: 10px;
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 18px;
@@ -1576,8 +1582,6 @@ main {
 .price-controls {
     color: #000;
     padding-bottom: 25px;
-    margin-bottom: 25px;
-    border-bottom: 2px solid #e5e5e5;
 }
 
 .price-controls input {
@@ -1744,7 +1748,7 @@ main {
     float: right;
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
-    line-height: 18px;
+    line-height: 38px;
     font-weight: normal;
     text-transform: uppercase;
     color: #000000;
@@ -1757,16 +1761,11 @@ main {
 }
 
 .sort a {
-    font-family: "PT Sans", "Arial", sans-serif;
-    font-size: 13px;
-	line-height: 38px;
-	font-weight: normal;
-	text-transform: uppercase;
 	opacity: 0.7;
 	margin-right: 20px;
     color: #c6c2bd;
     text-decoration: none;
-    border-bottom: 1px dashed #ee3643;
+    border-bottom: 1px dotted #ee3643;
 }
 
 .sort a:hover {
@@ -1775,7 +1774,7 @@ main {
     border-bottom: 1px solid #ee3643;
 }
 
-.sort a:focus {
+.sort .in-focus {
     color: #ee3643;
     text-decoration: none;
     border: none;
@@ -1800,11 +1799,11 @@ main {
 
 
 .icon-up-dir {
-    right: 45px;
+    right: 38px;
 }
 
 .icon-down-dir {
-    right: 15px;
+    right: 5px;
 }
 
 .gallery {
@@ -1866,19 +1865,19 @@ main {
 }
 
 .category-description {
-    padding: 65px 0;
+    padding: 68px 0;
     background-color: #f2f6f8;
 }
     
 .category-description h2 {
     margin: 0 0;
     padding: 0 0;
-    margin-bottom: 30px;
+    margin-bottom: 28px;
     font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 30px;
-	line-height: 30px;
+	line-height: 24px;
 	font-weight: normal;
-	color: #32425c;
+	color: #000000;
 	text-transform: uppercase;
 }
     

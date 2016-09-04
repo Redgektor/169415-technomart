@@ -81,17 +81,21 @@
                 <h1 class="page-label">Перфораторы</h1>
                 <form class="filter" action="#" method="get">
                     <h2 class="filter-label">Фильтр:</h2>
-                    <h3>Цена:</h3>
-                    <div class="range-controls">
-                        <div class="scale">
-                            <div class="bar"></div>
-                        </div>
-                        <div class="toggle min-toggle"></div>
-                        <div class="toggle max-toggle"></div>
-                    </div>
-                    <div class="price-controls">
-                        <input class="min-price" type="text" value="0"><span>&mdash;</span><input class="max-price" type="text" value="30000">
-                    </div>
+                    <section class=price-range>
+                        <fieldset>
+                            <legend>Цена:</legend>
+                            <div class="range-controls">
+                                <div class="scale">
+                                    <div class="bar"></div>
+                                </div>
+                                <div class="toggle min-toggle"></div>
+                                <div class="toggle max-toggle"></div>
+                            </div>
+                            <div class="price-controls">
+                                <input class="min-price" type="text" value="0"><span>&mdash;</span><input class="max-price" type="text" value="30000">
+                            </div>
+                        </fieldset>
+                    </section>
                     <section class="producer-filter">
                         <fieldset>
                             <legend>Производители:</legend>
@@ -103,7 +107,7 @@
                             <label for="input_3">MAKITA</label>
                             <input type="checkbox" name="dewalt" id="input_4">
                             <label for="input_4">DEWALT</label>
-                            <input type="checkbox" name="hitachi" id="input_5" disabled>
+                            <input type="checkbox" name="hitachi" id="input_5">
                             <label for="input_5" >HITACHI</label>
                         </fieldset>
                     </section>
@@ -122,7 +126,7 @@
                     <span>Сортировка</span>
                     <ul class="sort">
                         <li>
-                            <a href="#">По цене</a>
+                            <a href="#" class="in-focus" >По цене</a>
                         </li>
                         <li>
                             <a href="#">По типу</a>
@@ -131,8 +135,8 @@
                             <a href="#">По функционалу</a>
                         </li>
                     </ul>
-                    <a class="icon-up-dir" href="#"></a>
-                    <a class="icon-down-dir active" href="#"></a>
+                    <a class="icon-up-dir active"  href="#"></a>
+                    <a class="icon-down-dir" href="#"></a>
                 </div>
                 <section class="gallery">
                     <div class="row clearfix">
