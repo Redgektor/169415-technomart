@@ -344,6 +344,7 @@ input[name="search"]:focus ~ .icon-search {
 .user-block a {
     margin: 0 0;
     display: inline-block;
+    vertical-align: top;
     padding: 13.5px 0;
     background-color: #ffffff;
     font-family: "Cuprum", "Arial", sans-serif;
@@ -392,6 +393,7 @@ input[name="search"]:focus ~ .icon-search {
 
 .user-name {
     display: inline-block;
+    vertical-align: top;
     width: 255px;
     padding-left: 45px;
     background-color: #ffffff;
@@ -648,7 +650,7 @@ main {
     float: left;
     margin-right: 20px;
     position: relative;
-    background: #dddddd url("../img/slider-punch.jpg") ;
+    background: #44555e url("../img/slider-punch.jpg") ;
 }
 
 .slider h2 {
@@ -733,6 +735,7 @@ main {
 
 .slider-control a {
     display: inline-block;
+    vertical-align: top;
     margin-right: 5px;
     width: 7px;
     height: 7px;
@@ -1110,6 +1113,7 @@ main {
 
 .credit-button {
     display: inline-block;
+    vertical-align: top;
     padding: 10px 45px;
     border-radius: 3px;
     background-color: #ee3643;
@@ -1214,6 +1218,7 @@ main {
 
 .about-company-button {
     display: inline-block;
+    vertical-align: top;
     padding: 10px 40px;
     background-color: #ee3643;
     text-align: center;
@@ -1410,6 +1415,7 @@ main {
     background-color: #212a3a;
     font-size: 0;
     text-align: center;
+    text-decoration: none;
 }
 
 .social-button i {
@@ -1829,6 +1835,7 @@ main {
    
 .page-nav a {
     display: inline-block;
+    vertical-align: top;
     padding: 9px 14.5px;
     
     border: 1px solid #e5e5e5;
