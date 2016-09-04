@@ -1015,11 +1015,11 @@ main {
     padding-top: 65px;
     padding-bottom: 45px;
     margin-bottom: 80px;
-    position: relative;
 }
 
 .services-block .container {
     padding-bottom: 34px;
+    position: relative;
     
 }
 
@@ -1116,7 +1116,6 @@ main {
     font-family: "Cuprum", "Arial", sans-serif;
     font-size: 14px;
     line-height: 18px;
-    font-weight: bold;
     color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
@@ -1132,33 +1131,35 @@ main {
 
 .services-image {
     position: absolute;
-    bottom: 0px;
     
 }
 
 .services-delivery .services-image {
-    right: 131px;
+    right: 0px;
+    bottom: -45px;
     width: 468px;
     height: 261px;
     background: url("../img/delivery.png");
 }
 
 .services-warranty .services-image {
-    right: 122px;
+    right: -8px;
+    bottom: -45px;
     width: 389px;
     height: 283px;
     background: url("../img/warranty.png");
 }
 
 .services-credit .services-image {
-    right: 104px;
+    right: -26px;
+    bottom: -45px;
     width: 465px;
     height: 285px;
     background: url("../img/credit.png");
 }
 
 .services-delivery {
-    display: none;
+    /*display: none;*/
 }
 
 .services-warranty {
@@ -1166,7 +1167,7 @@ main {
 }
 
 .services-credit {
-    /*display: none;*/
+    display: none;
 }
 
 .about-company h2 {
