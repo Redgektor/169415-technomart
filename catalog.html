@@ -366,5 +366,24 @@
                 </div>
             </div>
         </div>
+        <script>
+
+        // Работает только на первом эелементе. При использовании var linkBuy = document.querySelectorAll(".buy-button"); выдает ошибку на linkBuy.addEventListener("click", function(event)
+        
+            var linkBuy = document.querySelector(".buy-button");
+            var massege = document.querySelector(".modal-add-basket");
+            var closeMassege = document.querySelector(".continue");
+
+            linkBuy.addEventListener("click", function(event){
+                event.preventDefault();
+                massege.classList.add("modal-content-show");
+            });
+
+            closeMassege.addEventListener("click", function(event) {
+                event.preventDefault();
+                massege.classList.remove("modal-content-show");
+            });
+
+        </script>
     </body>
 </html>

@@ -2116,10 +2116,6 @@ main {
 .modal-actions .continue:hover {
     text-decoration: underline;
 }
-
-.modal-content-show {
-    display: block;
-}
  
 /*Кнопка выхода на css*/
 
@@ -2134,7 +2130,6 @@ main {
     border: 0;
     outline: 0;
 }
-
 
 .close-button::before,
 .close-button::after {
@@ -2153,4 +2148,8 @@ main {
 }
 .close-button::after {
     transform: rotate(-45deg);
+}
+
+.modal-content-show {
+    display: block;
 }
