@@ -355,13 +355,28 @@
 					</div>
 				</div>
 			</form>
-			<a class="close-button" href="#">Закрыть</a>
+			<button type="button" class="close-button">Закрыть</a>
 		</div>
 		<div class="modal-content-map">
-			<a class="close-button" href="#">Закрыть</a>
+			<button class="close-button" type="button">Закрыть</button>
 			<div class="yandex-map">
 				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=eAOOQfasTfmS9O9nxgtSJ28ZPD-aK3Os&amp;width=940&amp;height=447&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
 			</div>
 		</div>
+		<script>
+			var link = document.querySelector(".map-button");
+			var popup = document.querySelector(".modal-content-map");
+			var	close = document.querySelector(".close-button");	
+
+			link.addEventListener("click", function(event){
+				event.preventDefault();
+				popup.classList.add("modal-content-show");
+			});
+
+			close.addEventListener("click", function(event) {
+        		event.preventDefault();
+        		popup.classList.remove("modal-content-show");
+      		});
+		</script>
 	</body>
 </html>
