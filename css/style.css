@@ -29,59 +29,135 @@ h2 {
 /*Начало подключения иконочного шрифта*/
 
 @font-face {
-  font-weight: normal;
-  font-style: normal;
+    font-weight: normal;
+    font-style: normal;
 
-  font-family: "symbols-technomart";
-  src: url("../fonts/symbols-technomart.woff") format("woff"),
-       url("../fonts/symbols-technomart.woff2") format("woff2");
+    font-family: "symbols-technomart";
+    src: url("../fonts/symbols-technomart.woff") format("woff"),
+    url("../fonts/symbols-technomart.woff2") format("woff2");
 }
 
 [class^="icon-"]::before,
 [class*=" icon-"]::before {
-  display: inline-block;
-  width: 1em;
-  margin-right: 0.2em;
-  margin-left: 0.2em;
+    display: inline-block;
+    width: 1em;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
 
-  font-weight: normal;
-  line-height: 1em;
-  font-family: "symbols-technomart";
-  text-align: center;
-  text-transform: none;
-  text-decoration: inherit;
-  font-style: normal;
-  font-variant: normal;
+    font-weight: normal;
+    line-height: 1em;
+    font-family: "symbols-technomart";
+    text-align: center;
+    text-transform: none;
+    text-decoration: inherit;
+    font-style: normal;
+    font-variant: normal;
 
-  speak: none;
+    speak: none;
 }
 
-.icon-left::before { content: "\3c"; } /* "&lt;" */
-.icon-right::before { content: "\3e"; } /* "&gt;" */
-.icon-basket::before { content: "\62"; } /* "b" */
-.icon-facebook::before { content: "\66"; } /* "f" */
-.icon-twitter::before { content: "\74"; } /* "t" */
-.icon-vk::before { content: "\76"; } /* "v" */
-.icon-up::before { content: "\2c4"; } /* "˄" */
-.icon-down::before { content: "\2c5"; } /* "˅" */
-.icon-left-big::before { content: "\2190"; } /* "←" */
-.icon-right-big::before { content: "\2192"; } /* "→" */
-.icon-login::before { content: "\2386"; } /* "⎆" */
-.icon-logout::before { content: "\241b"; } /* "␛" */
-.icon-up-dir::before { content: "\25b2"; } /* "▲" */
-.icon-down-dir::before { content: "\25bc"; } /* "▼" */
-.icon-circle::before { content: "\25cb"; } /* "○" */
-.icon-circle-dot::before { content: "\25cf"; } /* "●" */
-.icon-star::before { content: "\2605"; } /* "★" */
-.icon-check-off::before { content: "\2610"; } /* "☐" */
-.icon-check-on::before { content: "\2611"; } /* "☑" */
-.icon-youtube::before { content: "\f39e"; } /* "" */
-.icon-home::before { content: "🏠"; } /* "\1f3e0" */
-.icon-user::before { content: "👨"; } /* "\1f468" */
-.icon-phone::before { content: "📞"; } /* "\1f4de" */
-.icon-instagramm::before { content: "📷"; } /* "\1f4f7" */
-.icon-search::before { content: "🔍"; } /* "\1f50d" */
-.icon-bookmark::before { content: "🔖"; } /* "\1f516" */
+.icon-left::before { 
+    content: "\3c"; 
+} /* "&lt;" */
+
+.icon-right::before { 
+    content: "\3e"; 
+} /* "&gt;" */
+
+.icon-basket::before {
+    content: "\62"; 
+} /* "b" */
+
+.icon-facebook::before {
+    content: "\66"; 
+} /* "f" */
+
+.icon-twitter::before {
+    content: "\74"; 
+} /* "t" */
+
+.icon-vk::before {
+    content: "\76"; 
+} /* "v" */
+.icon-up::before {
+    content: "\2c4"; 
+} /* "˄" */
+
+.icon-down::before {
+    content: "\2c5";
+} /* "˅" */
+
+.icon-left-big::before {
+    content: "\2190"; 
+} /* "←" */
+
+.icon-right-big::before {
+    content: "\2192"; 
+} /* "→" */
+
+.icon-login::before {
+    content: "\2386"; 
+} /* "⎆" */
+
+.icon-logout::before {
+    content: "\241b"; 
+} /* "␛" */
+
+.icon-up-dir::before {
+    content: "\25b2"; 
+} /* "▲" */
+
+.icon-down-dir::before {
+    content: "\25bc"; 
+} /* "▼" */
+
+.icon-circle::before {
+    content: "\25cb";
+} /* "○" */
+
+.icon-circle-dot::before {
+    content: "\25cf"; 
+} /* "●" */
+
+.icon-star::before {
+    content: "\2605"; 
+} /* "★" */
+
+.icon-check-off::before {
+    content: "\2610"; 
+} /* "☐" */
+
+.icon-check-on::before {
+    content: "\2611"; 
+} /* "☑" */
+
+.icon-youtube::before {
+    content: "\f39e"; 
+} /* "" */
+
+.icon-home::before {
+    content: "🏠"; 
+} /* "\1f3e0" */
+
+.icon-user::before {
+    content: "👨";
+} /* "\1f468" */
+
+.icon-phone::before {
+    content: "📞";
+} /* "\1f4de" */
+
+.icon-instagramm::before {
+    content: "📷";
+    } /* "\1f4f7" */
+
+.icon-search::before {
+    content: "🔍";
+} /* "\1f50d" */
+
+.icon-bookmark::before {
+    content: "🔖";
+} /* "\1f516" */
 
 /*Завершение подключения иконочного шрифта*/
 
@@ -102,7 +178,7 @@ h2 {
 
 .main-header-top {
     background-color: #293449;
-    margin-bottom: 45px;
+    margin-bottom: 46px;
     height: 42px;
 }
 
@@ -152,7 +228,7 @@ h2 {
 .search-form input[name="search"] {
     margin: 0 0;
     box-sizing: border-box;
-    padding-left: 42px;
+    padding-left: 47px;
     width: 100%;
     min-height: 42px;
     border: none;
@@ -326,15 +402,17 @@ input[name="search"]:focus ~ .icon-search {
 	line-height: 39px;
 	font-weight: normal;
 	color: #e9292a;
+    text-decoration: none;
 }
 
-.adress-header {
+.contacts-header .adress-header {
     width: 270px;
     font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	font-weight: normal;
-	color: #32425c;   
+	color: #32425c;
+    margin-top: 3px;   
 }
 
 .user-block, .user-cab {
@@ -943,7 +1021,7 @@ main {
 
 .gallery-item h3 {
     margin-top: 19px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding: 0 25px;
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 18px;
@@ -953,6 +1031,9 @@ main {
 }
 
 .old-price {
+    margin: 0 0;
+    margin-top: 10px;
+    margin-bottom: 8px;
     display: block;
     min-height: 20px;
     font-family: "PT Sans", "Arial", sans-serif;
@@ -999,7 +1080,7 @@ main {
 
 .producers {
     min-width: 940px;
-    margin-bottom: 85px;
+    margin-bottom: 65px;
 }
 
 .producers-item {
@@ -1009,7 +1090,7 @@ main {
     border: 1px solid #e5e5e5;
     float: left;
     margin-right: 20px;
-    margin-bottom: 21px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -1036,13 +1117,11 @@ main {
     background-color: #f2f6f8;
     padding-top: 65px;
     padding-bottom: 45px;
-    margin-bottom: 80px;
 }
 
 .services-block .container {
     padding-bottom: 34px;
     position: relative;
-    
 }
 
 .services-description h2 {
@@ -1193,16 +1272,35 @@ main {
     display: none;
 }
 
+.about-company {
+    padding-top: 30px;
+    padding-bottom: 87px;
+}
+
 .about-company h2 {
     margin: 0 0;
-    margin-bottom: 10px;
+    margin-top: 45px;
+    margin-bottom: 22px;
     font-family: "Cuprum", "Arial", sans-serif;
     font-size: 30px;
-    line-height: 24px;
+    line-height: 36px;
     font-weight: bold;
     color: #000000;
     text-transform: uppercase;
 }
+
+.about-company p {
+    margin: 0;
+    margin-top: 22px;
+    margin-bottom: 20px;
+    padding: 0;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #000000;
+}
+/*Расстояние между строк абзаца по макету 17px, в браузере Crome 19px. Но высота строки и шрифт одинаковы.*/
 
 .about-company-left {
     width: 620px;
@@ -1211,7 +1309,7 @@ main {
 }
 
 .client-examples {
-    margin-bottom: 33px;
+    margin-bottom: 36px;
     list-style: none;
     font-family: "Cuprum", "Arial", sans-serif;
     font-size: 18px;
@@ -1221,7 +1319,7 @@ main {
 }
 
 .client-examples li {
-    margin-bottom: 22px;
+    margin-bottom: 20px;
     position: relative;
 }
 
@@ -1267,8 +1365,8 @@ main {
 
 .about-company .map {
     font-size: 0;
-    margin-top: 20px;
-    margin-bottom: 38px;
+    margin-top: 31px;
+    margin-bottom: 37px;
     width: 300px;
     height: 158px;
     background-image: url("../img/map.jpg");
