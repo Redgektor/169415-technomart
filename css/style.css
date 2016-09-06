@@ -518,6 +518,25 @@ input[name="search"]:focus ~ .icon-search {
     padding-right: 53px;
 }
 
+/*Возможный вариант*/
+/*.header-nav li {
+    border-bottom-color: #1d2739;
+}
+
+
+.header-nav li:first-child {
+    padding-left: 23px;
+}
+
+.header-nav li:last-child {
+    padding-right: 23px;
+}
+
+
+.header-nav li:active {
+    border-bottom-color: #1d2739;
+}
+*/
 
 .header-nav a:hover {
     background-color: #293449;
@@ -2116,6 +2135,8 @@ main {
 .modal-actions .continue:hover {
     text-decoration: underline;
 }
+
+
  
 /*Кнопка выхода на css*/
 
@@ -2130,6 +2151,7 @@ main {
     border: 0;
     outline: 0;
 }
+
 
 .close-button::before,
 .close-button::after {
