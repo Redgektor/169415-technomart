@@ -386,7 +386,7 @@ input[name="search"]:focus ~ .icon-search {
     float: left;
     margin-right: 20px;
     text-align: center;
-    margin-bottom: 42px; 
+    margin-bottom: 40px; 
 }
 
 .contacts-header p {
@@ -1498,7 +1498,7 @@ main {
 
 .copyright-block {
     background-color: #293449;
-    padding: 35px 0;   
+    padding: 31.5px 0;   
 }
 
 .copyright-block p {
@@ -1582,7 +1582,7 @@ main {
 /*Стили для страницы каталога*/
 .breadcrumbs {
     list-style: none;
-    margin: 20px 0;
+    margin: 17.5px 0;
     padding: 0 0;    
 }
 
@@ -1594,8 +1594,18 @@ main {
     font-weight: normal;
     text-transform: uppercase;
     color: #000000;
+    position: relative;
+    left: -4px;
+    margin-right: 10px;
 }
 
+.breadcrumbs li:first-child {
+    margin-right: 0;
+}
+
+.breadcrumbs li:nth-child(3)::before {
+    margin-right: 8px;
+}
 
 .breadcrumbs a {
     text-decoration: none;
@@ -1612,12 +1622,12 @@ main {
     font-size: 14px;
     line-height: 20px;
     color: #c1c6ce;
-    margin: 0 10px;
+    margin-right: 10px;
 }
 
 .page-label {
     margin: 0 0;
-    padding: 30px 0;
+    padding: 39.5px 0;
     padding-left: 31px;
     margin-bottom: 20px;
     background-color: #f2f6f8;
@@ -1742,7 +1752,7 @@ main {
     margin: 0 0;
     font-size: 17px;
     line-height: 30px;
-    margin-bottom: 16px;
+    margin-bottom: 13px;
     text-transform: uppercase;
     font-weight: bold;
     color: #000000;
@@ -1832,7 +1842,7 @@ main {
     background-color: transparent;
     display: block;
     padding: 10px 38px;
-    margin-top: 56px;
+    margin-top: 58px;
     border: 1px solid #e5e5e5;
     color: #000000;
     text-transform: uppercase;
