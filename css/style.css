@@ -167,6 +167,8 @@ h2 {
     clear: both;
 }
 
+/*Стилизация header*/
+
 .main-header {
     background-color: #f1f5f7;
     padding-bottom: 65px;
@@ -996,7 +998,7 @@ main {
 }
 
 .item-image {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 .gallery-item h3 {
@@ -1091,8 +1093,6 @@ main {
     margin-right: 0;
 }
 
-
-
 .services-block {
     background-color: #f2f6f8;
     padding-top: 65px;
@@ -1186,7 +1186,7 @@ main {
 }
 
 .services-info p {
-  width: 300px;
+    width: 300px;
 }
 
 .credit-button {
@@ -1642,10 +1642,10 @@ main {
 }
 
 .range-filter {
-  margin-top: 20px;
-  margin-bottom: 15px;
-  padding-bottom: 25px;
-  border-bottom: 2px solid #e5e5e5;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #e5e5e5;
 }
 
 .range-controls {
@@ -1944,10 +1944,8 @@ main {
     display: inline-block;
     vertical-align: top;
     padding: 9px 14.5px;
-    
     border: 1px solid #e5e5e5;
     border-radius: 3px;
-
     text-align: center;
     font-family: "PT Sans", "Arial", sans-serif;
     font-size: 13px;
@@ -1963,7 +1961,7 @@ main {
 }
 
 .page-nav li:last-child {
-        width: 140px;
+    width: 140px;
 }
 
 .page-nav .active-page {
@@ -2095,8 +2093,6 @@ main {
     background-color: #ee3643;
     border: none;
     border-radius: 3px;
-
-
     font-family: "Cuprum", "Arial", sans-serif;
     font-size: 14px;
     line-height: 18px;
@@ -2160,7 +2156,6 @@ main {
 .message {
     padding: 73px 0;
     padding-left: 98px;
-
     font-family: "Cuprum", "Arial", sans-serif;
     font-size: 30px;
     line-height: 18px;
