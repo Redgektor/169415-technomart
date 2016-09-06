@@ -1350,6 +1350,7 @@ main {
     width: 300px;
     height: 158px;
     background-image: url("../img/map.jpg");
+    cursor: pointer;
 }
 
 .map-button {
@@ -2121,12 +2122,18 @@ main {
 .modal-content-map {
     display: none;
     position: fixed;
-    top: 50%;
+    top: 200px;
     left: 50%;
     width: auto;
     height: auto;
     margin-left: -470px;
     box-shadow: 0 0px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+.modal-content-map .yandex-map {
+    width: 940px;
+    height: 447px;
+    background-image: url("../img/modal-map-background.jpg");
 }
 
 .modal-content-map .close-button {
