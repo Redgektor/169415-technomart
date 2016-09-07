@@ -1597,6 +1597,17 @@ main {
     font-size: 16px;
     line-height: 20px;
     color: #c1c6ce;
+    position: relative;
+}
+
+.icon-home a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+
 }
 
 .breadcrumbs .icon-right::before {
