@@ -2017,15 +2017,13 @@ main {
     display: none;
     width:  620px;
     position: absolute;
-    bottom: 600px;
+    bottom: 14%;
     left: 50%;
     margin-left: -310px;
     background-color: #ffffff;
     box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.75);
     border-top: 7px solid #ee3643;
     border-top-style: inset;
-    position: relative;
-
     font-family: "Cuprum", "Arial", sans-serif;
     font-size: 18px;
     line-height: 18px;
