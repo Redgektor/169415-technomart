@@ -14,7 +14,7 @@
         <header class="main-header">
             <div class="main-header-top">
                 <div class="container clearfix">
-                    <a class="logo" href="#">Техномарт</a>
+                    <a class="logo" href="index.html">Техномарт</a>
                     <form class="search-form" action="http://technomart.ru" method="get">
                         <input type="search" name="search" id="search-id" placeholder="Поиск:">
                         <label class="icon-search" for="search-id"></label>
@@ -42,7 +42,7 @@
                 <nav class="header-nav">
                     <ul>
                         <li>
-                            <a href="#">Главная</a>
+                            <a href="index.html">Главная</a>
                         </li>
                         <li>
                             <a href="#">Компания</a>
@@ -70,7 +70,7 @@
             <div class="container clearfix">
                 <ul class="breadcrumbs">
                     <li class="icon-home">
-                        <a href="#"></a>
+                        <a href="index.html"></a>
                     </li>
                     <li class="icon-right">
                         <a href="#">Каталог</a>
@@ -364,28 +364,10 @@
             <div class="modal-actions clearfix">
                 <div class="modal-container">
                     <a class="checkout" href="#">Оформить заказ</a>
-                    <a class="continue" href="#">Продолжить покупки</a>
+                    <a class="continue" href="#" id="massege-close">Продолжить покупки</a>
                 </div>
             </div>
         </div>
-        <script>
-
-        // Работает только на первом эелементе. При использовании var linkBuy = document.querySelectorAll(".buy-button"); выдает ошибку на linkBuy.addEventListener("click", function(event)
-
-            var linkBuy = document.querySelector(".buy-button");
-            var massege = document.querySelector(".modal-add-basket");
-            var closeMassege = document.querySelector(".continue");
-
-            linkBuy.addEventListener("click", function(event){
-                event.preventDefault();
-                massege.classList.add("modal-content-show");
-            });
-
-            closeMassege.addEventListener("click", function(event) {
-                event.preventDefault();
-                massege.classList.remove("modal-content-show");
-            });
-
-        </script>
+        <script src="js/modal-catalog.js"></script>
     </body>
 </html>

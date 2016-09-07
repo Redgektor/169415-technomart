@@ -49,7 +49,7 @@
                             <a href="#">Компания</a>
                         </li>
                         <li>
-                            <a href="#">Каталог</a>
+                            <a href="catalog.html">Каталог</a>
                         </li>
                         <li>
                             <a href="#">Новости</a>
@@ -285,7 +285,7 @@
                                 <a href="#">Новости</a>
                             </li>
                             <li>
-                                <a href="#">Каталог</a>
+                                <a href="catalog.html">Каталог</a>
                             </li>
                             <li>
                                 <a href="#">Доставка</a>
@@ -365,33 +365,17 @@
                 <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=eAOOQfasTfmS9O9nxgtSJ28ZPD-aK3Os&amp;width=940&amp;height=447&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
             </div>
         </div>
-        <script>
-            var linkLatter = document.querySelector(".map-button");
-            var linkMap = document.querySelector(".map");
-            var latter = document.querySelector(".modal-write-us");
-            var map = document.querySelector(".modal-content-map")
-            var closeLatter = document.getElementById(["latter-close"]);
-            var closeMap = document.getElementById(["map-close"]);  
-
-            linkLatter.addEventListener("click", function(event){
-                event.preventDefault();
-                latter.classList.add("modal-content-show");
-            });
-
-            linkMap.addEventListener("click", function(event){
-                event.preventDefault();
-                map.classList.add("modal-content-show");
-            });
-
-            closeLatter.addEventListener("click", function(event) {
-                event.preventDefault();
-                latter.classList.remove("modal-content-show");
-            });
-
-            closeMap.addEventListener("click", function(event) {
-                event.preventDefault();
-                map.classList.remove("modal-content-show");
-            });
-        </script>
+        <div class="modal-add-basket">
+            <div class="modal-container">
+                <div class="message"><span class="ok"></span>Товар добавлен в корзину</div>
+            </div>
+            <div class="modal-actions clearfix">
+                <div class="modal-container">
+                    <a class="checkout" href="#">Оформить заказ</a>
+                    <a class="continue" href="#" id="massege-close">Продолжить покупки</a>
+                </div>
+            </div>
+        </div>
+        <script async src="js/modal-index.js"></script>
     </body>
 </html>

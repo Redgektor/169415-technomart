@@ -2148,15 +2148,14 @@ main {
 .modal-add-basket {
     display: none;
     width:  620px;
-    position: absolute;
-    bottom: 1000px;
+    position: fixed;
+    top: 10%;
     left: 50%;
     margin-left: -310px;
     background-color: #ffffff;
     box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.75);
     border-top: 7px solid #ee3643;
     border-top-style: inset;
-    position: relative;
     z-index: 20;
 }
 
