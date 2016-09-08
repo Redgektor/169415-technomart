@@ -171,7 +171,7 @@ h2 {
 
 .main-header {
     background-color: #f1f5f7;
-    padding-bottom: 65px;
+    padding-bottom: 60px;
 }
 
 .main-header a{
@@ -582,7 +582,7 @@ input[name="search"]:focus ~ .icon-search {
 
 .header-nav a {
     display: block;
-    padding: 18px 30px;
+    padding: 19px 30px;
     font-family: "Cuprum", "Arial", sans-serif;
     font-weight: normal;
     color: #ffffff; 
@@ -1619,7 +1619,7 @@ main {
 
 .page-label {
     margin: 0 0;
-    padding: 39.5px 0;
+    padding: 29.5px 0;
     padding-left: 31px;
     margin-bottom: 20px;
     background-color: #f2f6f8;
@@ -1712,7 +1712,7 @@ main {
 
 .price-controls input {
     width: 75px;
-    padding: 8px 10px;
+    padding: 7px 10px;
     border: none;
     background: #f7f3ec;
     font-size: 17px;
@@ -1833,9 +1833,10 @@ main {
 .filter input[type="submit"] {
     background-color: transparent;
     display: block;
-    padding: 10px 38px;
-    margin-top: 58px;
+    padding: 9px 38px;
+    margin-top: 60px;
     border: 1px solid #e5e5e5;
+    border-radius: 3px;
     color: #000000;
     text-transform: uppercase;
     font-family: 'PT Sans', 'Arial', sans-serif;
@@ -1936,6 +1937,10 @@ main {
     width: 700px;
     float: right;
     margin-bottom: 60px;
+}
+
+.page-nav {
+    margin-top: 32px;
 }
 
 .page-nav ul {
